@@ -1,15 +1,3 @@
-#include <iostream>
-#include <exception>
-#include <array>
-using namespace std;
 
-
-int main()
-{
-
-    cout << "Awal program" << endl; //penanda 1
-    try
-   
-    return 0;
-
-}
+        array <int, 3> data = { 1, 2, 3 };
+      
