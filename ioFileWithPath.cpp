@@ -1,18 +1,10 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
 
-int main()
-{
 
-    //deklarasi variabel baris dan NamaFile
-    string baris, NamaFile;
+    //membuat file dalam mode menulis
+    ofstream outfile;
+    //menunjuk ke sebuah nama file dengan ekstensi txt
+    outfile.open(NamaFile + ".txt", ios::out);
 
-    //membuat input untuk menangkap nama file
-    cout << "Masukkan nama file : ";
-    cin >> NamaFile;
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
     
-    return 0;
-}
