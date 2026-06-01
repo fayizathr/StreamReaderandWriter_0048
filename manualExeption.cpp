@@ -1,7 +1,7 @@
 
-    //kondisi jika throw yang bertipe data integer
-    catch (int a)
+    //kondisi jika throw bertipe data selain integer
+    catch (...)
     {
-        cout << "Pengecualian akan di eksekusi" << endl;
+        cout << "default pengecualian diekseskusi" << endl;
     }
-    
+   
